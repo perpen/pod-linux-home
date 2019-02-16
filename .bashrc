@@ -1,6 +1,3 @@
-##################################################### tmux
-if tmux has -t 0 2>&1 > /dev/null; then
-	tmux attach -d -t 0
-else
-	tmux new-session -s 0
-fi
+# vi: set filetype=sh sw=4 ts=4 expandtab autoindent:
+
+export PS1="\[\e[32m\]\h \[\e[m\]\w \\$ "
