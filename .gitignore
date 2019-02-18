@@ -1,7 +1,5 @@
 /.bash_history
 /.gnupg/
-/.pod-args
-/.pod-profiled
-/.pod-secrets/
+/.pod
 /src/
 /.viminfo
